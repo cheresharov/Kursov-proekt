@@ -7,21 +7,15 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Eli\Controller;
+namespace Application\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-class IndexController extends AbstractActionController
+class EliController extends AbstractActionController
 {
     public function indexAction()
     {
-        return new ViewModel();
-    }
-   public function ChangeAction()
-    {
-  
-        $this->layout('layout/Eli');      
         return new ViewModel();
     }
 }
