@@ -1,7 +1,7 @@
 <?php
 return array(
     'modules' => array(
-        'Application',
+        'Eli',
 
 //   'Eli',
 //     'Iveto',
