@@ -2,7 +2,7 @@
 return array(
     'modules' => array(
         'Application',
-//        'Eli',
+        'Eli',
 //     'Iveto',
     ),
     'module_listener_options' => array(
