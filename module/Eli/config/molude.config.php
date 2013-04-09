@@ -26,12 +26,12 @@ return array(
         ),
     ),
   
-    'view_manager' => array(
-          'template_map' => array(
-          'layout/Eli'           => __DIR__ . '/../view/layout/Eli.phtml',
-             ),
-            'template_path_stack' => array(
-                'eli' => __DIR__ . '/../view',
-            ),
-    ),
+  //  'view_manager' => array(
+  //        'template_map' => array(
+  //        'layout/Eli'           => __DIR__ . '/../view/layout/Eli.phtml',
+  //          ),
+  //         'template_path_stack' => array(
+  //             'eli' => __DIR__ . '/../view',
+  //          ),
+  //  ),
 );
