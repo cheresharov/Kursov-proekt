@@ -7,7 +7,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Eli\Controller;
+namespace Iveto\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
@@ -21,7 +21,7 @@ class IndexController extends AbstractActionController
    public function changeAction()
     {
   
-        $this->layout('layout/Eli');      
+        $this->layout('layout/Iveto');      
         return new ViewModel();
     }
 }
